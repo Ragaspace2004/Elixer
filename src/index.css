@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -54,16 +54,16 @@ body {
 .app-title {
     background: linear-gradient(45deg, #28e2fb, #7c65d7);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+     -webkit-background-clip: text; 
 }
 
 span.active {
     position: relative;
     color: #292b48;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: end;
-}
+    align-items: end; */
+} 
 
 span.active::after {
     content: '';
